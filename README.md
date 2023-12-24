@@ -108,7 +108,9 @@ For a more interactive learning experience, we have compiled a series of video t
 
 Explore our curated playlist for in-depth tutorials, practical demonstrations, and tips to help you maximize the potential of the BlueprintPro plugin in your Unreal Engine projects.
 
-**Access the Playlist Here:** [BlueprintPro Tutorials on YouTube](https://www.youtube.com/playlist?list=PLAobe55AteJb_JQvq6r06VIloSUnDX_cS)
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=U1L8hoPSzjX2Y-je&amp;list=PLAobe55AteJb_JQvq6r06VIloSUnDX_cS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
 
 
 
