@@ -138,7 +138,6 @@ playList：[BlueprintPro Plugin Tutorial 0 - List all blueprint nodes-童年的�
 For any questions or support related to BlueprintPro:
 
 - **Email:** xusjtuer@163.com
-- **YouTube:** [xu sjtuer](https://www.youtube.com/channel/UCGLRtSr5FnwZEiekGL_5oEw)
 - **Twitter:** @sjtuerxu
 
 We're here to help!
