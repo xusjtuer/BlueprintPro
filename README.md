@@ -1,47 +1,52 @@
 # BlueprintPro Plugin Documentation
 
-## Introduction
+## 1. Introduction
 
 BlueprintPro is a plugin written in UE C++ designed to extend the functionality of the Unreal Engine's Blueprint system. The plugin includes a range of wildcard Blueprint nodes for array operations such as sorting, finding maximum and minimum values, and array slice. Additionally, it offers asynchronous Blueprint nodes like SetTimer and  K2Node nodes for getting and setting object property values. The plugin also encompasses Blueprint nodes for handling configuration files, significantly facilitating the Blueprint development process. This tool is tailored for game developers and technical artists, aiming to simplify and accelerate the game development workflow.  The BlueprintPro plugin enhances Unreal Engine's Blueprint system with generic nodes for array operations, asynchronous tasks, and property management.
 
-## Quick Start
+## 2. Quick Start
 
 This section helps you get started with the BlueprintPro plugin quickly. Follow these steps to install and begin using the plugin in your Unreal Engine project.
 
 ### Step 1: Installation
 
-1. **Download the Plugin**: Download the BlueprintPro plugin from the Unreal Engine Marketplace or the provided source.
-2. **Add to Your Project**: Unzip the downloaded file and place the BlueprintPro plugin folder into your project’s `Plugins` folder. If this folder does not exist, create it at the root of your project directory.
-3. **Enable the Plugin**: Open your project in Unreal Engine. Navigate to `Edit` > `Plugins`, find BlueprintPro in the list, and check the box to enable it. Restart the Unreal Engine Editor to apply changes.
+#### 	1.**Download the Plugin**:
 
-### Step 2: Basic Setup
+- Obtain the BlueprintPro plugin from the Unreal Engine Marketplace or the provided source.
 
-1. **Accessing BlueprintPro**: Once the plugin is enabled, you can access its features through the Unreal Engine Editor. Typically, this would be through a new menu item, toolbar button, or context menu in the editor.
+#### 	2. **Add to Your Project (Recommended)**:
 
-2. **First Usage**: Demonstrate a simple task. For example, if BlueprintPro adds new nodes to Blueprints, show how to add and configure one of these nodes in a Blueprint.
+- While this step is not mandatory, it is recommended for seamless integration and accessibility within your project.
+- If you choose to add it, unzip the downloaded file and place the BlueprintPro plugin folder into your project’s `Plugins` folder.
+- If the `Plugins` folder does not exist in your project directory, you have the option to create it at the root of your project. However, this is only necessary if you decide to directly integrate the plugin into your project structure.
 
-   Example:
+#### 	3. **Enable the Plugin**:
 
-   - Open a Blueprint.
-   - Right-click in the graph area and search for a specific BlueprintPro node.
-   - Add the node and connect it to other nodes as required.
+- Open your project in Unreal Engine Editor .
+- Navigate to `Edit` > `Plugins`, find BlueprintPro in the list, and check the box to enable it.
+- Restart the Unreal Engine Editor to apply changes.
 
-### Step 3: Running a Simple Example
+### Step 2:  **Finding Nodes in the Blueprint Graph**:
 
-Provide a simple, clear example that users can follow to see the plugin in action. This could be a short tutorial on creating a basic functionality using BlueprintPro.
+​	After enabling the BlueprintPro plugin, its nodes are integrated directly into the Unreal Engine Blueprint Editor.
 
-Example:
+- Open a Blueprint file. This can be an existing Blueprint, or you can create a new one.
+- In the Blueprint Editor, right-click on the graph area to open the node search menu.
+- Type the specific node name or relevant keywords into the search box. For instance, if you want to use the “Array Sort” node, search for “Array Sort”.
+- Select the desired BlueprintPro node from the search results and drag it into your Blueprint Graph.
+- You can now connect these new nodes to other nodes in the graph, just like any other nodes in Unreal Engine.
+- ![FindNodes](${images}/FindNodes.gif)
 
-- Describe the creation of a simple game mechanic or visual effect using BlueprintPro.
-- Include step-by-step instructions and screenshots.
+### Step 3: Running a Simple Example Project
 
-### Step 4: Next Steps
+- **Clone the Project**: Use the `git clone https://github.com/xusjtuer/BlueprintPro.git` command in your command line or terminal to clone the project to your computer.
+- **Enable BlueprintPro Plugin**: Go to `Edit` > `Plugins`, find the BlueprintPro plugin, and make sure it's enabled.
+- *Find `BP_NodesExample`**: In the Project Browser, locate the `BP_NodesExample` Blueprint file.**
+- Open and Run**: Double-click to open the Blueprint and run the example to see it in action.
 
-Direct users to the next sections of the documentation for more detailed information on features, advanced usage, and best practices.
+![image-20231228211512090](${images}/image-20231228211512090.png)
 
-
-
-## Feature Overview
+## 3. Feature Overview
 
  Wildcard Blueprint nodes for array operations including sorting, finding maximum and minimum values, and splitting arrays.
  Asynchronous Blueprint nodes such as SetTimer for efficient timing functions.
@@ -80,39 +85,55 @@ Remove Section
 Empty Sections Matching String
 Get Object Default Section
 
-## Advanced Usage
+## 4. Usage Examples
 
 **Preview ：**
 
 ![image-20231224195238560](${images}/image-20231224195238560.png)
 
-**Array Sort wildcard node**
+- **Array Sort wildcard node**
 
 ![image-20231224195400715](${images}/image-20231224195400715.png)
 
 
 
-**Custom async node SetTimer**
+- **Custom async node SetTimer**
 
 ![image-20231224195451653](${images}/image-20231224195451653.png)
 
-**custom config Nodes**
+- **custom config Nodes**
 
 ![image-20231224195536232](${images}/image-20231224195536232.png)
 
 
 
-## Additional Resources
+## 5. Additional Resources
 
-For a more interactive learning experience, we have compiled a series of video tutorials and demonstrations available on our YouTube playlist. These videos cover a range of topics from basic setup to advanced features of the BlueprintPro plugin.
+For a more interactive learning experience, we have compiled a series of video tutorials and demonstrations available on our Bilibili playlist. These videos cover a range of topics from basic setup to advanced features of the BlueprintPro plugin.
 
 Explore our curated playlist for in-depth tutorials, practical demonstrations, and tips to help you maximize the potential of the BlueprintPro plugin in your Unreal Engine projects.
 
-[![BlueprintPro Plugin](${images}/youtube--cloyYAbKIUQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=cloyYAbKIUQ&list=PLAobe55AteJb_JQvq6r06VIloSUnDX_cS&ab_channel=xusjtuer "BlueprintPro Plugin")
+playList：[BlueprintPro Plugin Tutorial 0 - List all blueprint nodes-童年的琴-Plugin Tut-哔哩哔哩视频 (bilibili.com)](https://www.bilibili.com/list/183544702?sid=3863063&spm_id_from=333.999.0.0&desc=1&oid=580397037&bvid=BV1a64y1J7uM)
 
-![](${images}/image-20231224201055231.png)
+- **BlueprintPro Plugin Tutorial 0 - List all blueprint nodes**
 
-## Support and Contact Information
+- <iframe height="800" width="600" src="//player.bilibili.com/player.html?aid=580397037&bvid=BV1a64y1J7uM&cid=1384463919&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+- ### **BlueprintPro Plugin Tutorial 1 - Example of Using Wildcard Node Array Sort**
+
+- <iframe height="800" width="600" src="//player.bilibili.com/player.html?aid=325441021&bvid=BV1tw411G7kj&cid=1384464012&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+- **BlueprintPro Plugin Tutorial 2 - Example of Using Async SetTimer Node**
+
+<iframe height="800" width="600" src="//player.bilibili.com/player.html?aid=537888726&bvid=BV1fi4y1h7At&cid=1384463907&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+- **BlueprintPro Plugin Tutorial 3 - Example of Using Configuring Node**
+
+<iframe height="800" width="600" src="//player.bilibili.com/player.html?aid=835389458&bvid=BV1Dg4y1k7m7&cid=1384464001&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+## 6.Support and Contact Information
 
 For any questions or support related to BlueprintPro:
 
